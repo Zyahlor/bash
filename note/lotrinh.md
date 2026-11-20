@@ -9,7 +9,7 @@
 
 Sau khi hoàn thành lộ trình, có thể:
 
-* [ ] Viết Bash script từ đầu
+* [x] Viết Bash script từ đầu ✅ 2026-10-10
 * [ ] Hiểu cách Bash xử lý command, biến, input/output
 * [ ] Sử dụng điều kiện, vòng lặp, function
 * [ ] Xử lý file và text bằng `grep`, `sed`, `awk`
@@ -29,54 +29,54 @@ Sau khi hoàn thành lộ trình, có thể:
 ## 1. Linux Shell
 
 * [x] Shell là gì? ✅ 2026-09-21
-* [ ] Bash là gì?
-* [ ] Bash vs `sh` vs `zsh`
-* [ ] Terminal vs Shell
-* [ ] Command structure
-* [ ] Command + option + argument
-* [ ] `man`
-* [ ] `--help`
-* [ ] PATH và `$PATH`
+* [x] Bash là gì? ✅ 2026-10-10
+* [x] Bash vs `sh` vs `zsh` ✅ 2026-10-10
+* [x] Terminal vs Shell ✅ 2026-10-10
+* [x] Command structure ✅ 2026-10-10
+* [x] Command + option + argument ✅ 2026-10-10
+* [x] `man` ✅ 2026-10-10
+* [x] `--help` ✅ 2026-10-10
+* [x] PATH và `$PATH` ✅ 2026-10-10
 
 ### Thực hành
 
-* [ ] `pwd`
-* [ ] `ls`
-* [ ] `cd`
-* [ ] `mkdir`
-* [ ] `touch`
-* [ ] `cp`
-* [ ] `mv`
-* [ ] `rm`
+* [x] `pwd` ✅ 2026-10-10
+* [x] `ls` ✅ 2026-10-10
+* [x] `cd` ✅ 2026-10-10
+* [x] `mkdir` ✅ 2026-10-10
+* [x] `touch` ✅ 2026-10-10
+* [x] `cp` ✅ 2026-10-10
+* [x] `mv` ✅ 2026-10-10
+* [x] `rm` ✅ 2026-10-10
 
 ---
 
-## 2. Bash Script đầu tiên
+## 2. [[BASH SCRIPTING]] đầu tiên
 
-* [ ] Tạo `.sh`
-* [ ] Shebang `#!/bin/bash`
-* [ ] `chmod +x`
-* [ ] Chạy script bằng `./script.sh`
-* [ ] Chạy script bằng `bash script.sh`
-* [ ] Comment
+* [x] Tạo `.sh` ✅ 2026-10-10
+* [x] Shebang `#!/bin/bash` ✅ 2026-10-10
+* [x] `chmod +x` ✅ 2026-10-10
+* [x] Chạy script bằng `./script.sh` ✅ 2026-10-10
+* [x] Chạy script bằng `bash script.sh` ✅ 2026-10-10
+* [x] Comment ✅ 2026-10-10
 
 ### Mini Project
 
-* [ ] `hello.sh`
-* [ ] `system_info.sh`
+* [x] `hello.sh` ✅ 2026-10-10
+* [x] `system_info.sh` ✅ 2026-10-10
 
 ---
 
 # 🟢 LEVEL 2: Variables & Input
 
-## 3. Variables
+## 3. [[variable]]
 
-* [ ] Khai báo biến
-* [ ] Sử dụng biến
-* [ ] String
-* [ ] Number
-* [ ] Environment variable
-* [ ] Special variables
+* [x] Khai báo biến ✅ 2026-10-10
+* [x] Sử dụng biến ✅ 2026-10-10
+* [x] String ✅ 2026-10-10
+* [x] Number ✅ 2026-10-10
+* [x] Environment variable ✅ 2026-10-10
+* [x] Special variables ✅ 2026-10-10
 
 ### Special Variables
 
@@ -95,7 +95,7 @@ $PWD
 
 ---
 
-## 4. Command Substitution
+## 4. [[Command Substitution]]
 
 * [ ] `$(command)`
 * [ ] Lưu output command vào biến
@@ -126,7 +126,7 @@ kernel=$(uname -r)
 
 ---
 
-# 🟢 LEVEL 3: Control Flow
+# 🟢 LEVEL 3: [[Control Flow]]
 
 ## 6. if / elif / else
 
@@ -146,7 +146,7 @@ kernel=$(uname -r)
 -n
 ```
 
-### Number comparison
+### [[toán tử trong BASH]]
 
 ```bash
 -eq
